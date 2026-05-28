@@ -88,20 +88,26 @@ El proyecto utiliza una **arquitectura por capas**:
 ## Pruebas Realizadas en POSTMAN
 
 <p align="center">
-  <img src="docs/BuscarProductoPorCategoria_GET.png" alt="buscar" width="900"/>
+  <img src="docs/BuscarProductoPorCategoria_GET.png" alt="buscar" width="500"/>
 </p>
 
-<p align="center">
-  <img src="docs/CrearCategorias_POST.png" alt="crear" width="900"/>
-</p>
+---
 
 <p align="center">
-  <img src="docs/Error_EliminarProductoPorID_DELETE.png" alt="errorEliminar" width="900"/>
+  <img src="docs/CrearCategorias_POST.png" alt="crear" width="500"/>
 </p>
+
+---
+
+<p align="center">
+  <img src="docs/Error_EliminarProductoPorID_DELETE.png" alt="errorEliminar" width="500"/>
+</p>
+
+---
 
 ## Códigos HTTP utilizados
 <p align="center">
-  <img src="docs/CodigoHTTP.png" alt="Http" width="900"/>
+  <img src="docs/CodigoHTTP.png" alt="Http" width="600"/>
 </p>
 
 ## Autor
