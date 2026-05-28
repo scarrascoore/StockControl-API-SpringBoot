@@ -68,6 +68,19 @@ public class GlobalExceptionHandler {
         );
     }
 
+    @ExceptionHandler(InsufficientStockException.class)
+    public ResponseEntity<ErrorResponse> handleInsufficientStock(
+            InsufficientStockException exception,
+            HttpServletRequest request
+    ){
+        return buildErrorResponse(
+          HttpStatus.CONFLICT,
+          List.of(exception.getMessage()),
+          request.getRequestURI()
+        );
+    }
+
+
     private ResponseEntity<ErrorResponse> buildErrorResponse(
             HttpStatus status,
             List<String> messages,
