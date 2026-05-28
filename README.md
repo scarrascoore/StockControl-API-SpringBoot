@@ -14,7 +14,7 @@
 
 ---
 
-## 📌 Descripción
+## Descripción
 
 **StockControl API Spring Boot** es una API REST desarrollada como proyecto de portafolio profesional para demostrar conocimientos de desarrollo Backend Java.
 
@@ -32,7 +32,7 @@ Este proyecto aplica una **arquitectura por capas**, buenas prácticas de **Clea
 
 ---
 
-## 🎯 Objetivo del proyecto
+## Objetivo del proyecto
 
 El objetivo principal es construir una API pequeña, realista y profesional que demuestre competencias clave para un perfil de:
 
@@ -59,12 +59,16 @@ El objetivo principal es construir una API pequeña, realista y profesional que 
 
 ---
 
-## 🏗️ Arquitectura del proyecto
+## Arquitectura del proyecto
 
 El proyecto utiliza una **arquitectura por capas**:
 
-![ArquitecturaDelProyecto.png](docs/ArquitecturaDelProyecto.png)
+<p align="center">
+  <img src="docs/ArquitecturaDelProyecto.png" alt="Estructura del proyecto" width="980"/>
+</p>
+
+## Diagrama Entidad Relación
 
 <p align="center">
-  <img src="docs/ArquitecturaDelProyecto.png" alt="Estructura del proyecto" width="900"/>
+  <img src="docs/DiagramaER.png" alt="DiagramaER" width="500"/>
 </p>
