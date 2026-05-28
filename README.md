@@ -70,5 +70,40 @@ El proyecto utiliza una **arquitectura por capas**:
 ## Diagrama Entidad Relación
 
 <p align="center">
-  <img src="docs/DiagramaER.png" alt="DiagramaER" width="500"/>
+  <img src="docs/DiagramaER.png" alt="DiagramaER" width="800"/>
 </p>
+
+## Endpoints principales
+
+<p align="center">
+  <img src="docs/EndPoints.png" alt="EndPoints" width="900"/>
+</p>
+
+## Estructura del Proyecto
+
+<p align="center">
+  <img src="docs/EstructuraDelProyecto.png" alt="Estructura" width="900"/>
+</p>
+
+## Pruebas Realizadas en POSTMAN
+
+<p align="center">
+  <img src="docs/BuscarProductoPorCategoria_GET.png" alt="buscar" width="900"/>
+</p>
+
+<p align="center">
+  <img src="docs/CrearCategorias_POST.png" alt="crear" width="900"/>
+</p>
+
+<p align="center">
+  <img src="docs/Error_EliminarProductoPorID_DELETE.png" alt="errorEliminar" width="900"/>
+</p>
+
+## Códigos HTTP utilizados
+<p align="center">
+  <img src="docs/CodigoHTTP.png" alt="Http" width="900"/>
+</p>
+
+## Autor
+
+Proyecto desarrollado como parte de un portafolio profesional de desarrollo Backend Java / Full Stack Java.
