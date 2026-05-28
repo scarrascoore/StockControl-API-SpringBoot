@@ -61,7 +61,7 @@ public class ProductServiceImpl implements ProductService {
 
     @Override
     public ProductResponse create(ProductCreateRequest request) {
-        Category category = findByCategoryOrThrow(request.categoryId());
+        Category category = findCategoryOrThrow(request.categoryId());
 
         Product product = new Product(
                 request.name(),
@@ -76,7 +76,7 @@ public class ProductServiceImpl implements ProductService {
     @Override
     public ProductResponse update(Long id,ProductUpdateRequest request) {
         Product product = findProductOrThrow(id);
-        Category category = findCategoryOrThrow(request.categoryID());
+        Category category = findCategoryOrThrow(request.categoryId());
 
         product.update(
                 request.name(),

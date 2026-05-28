@@ -17,6 +17,6 @@ public record ProductUpdateRequest(
         BigDecimal price,
 
         @NotNull(message = "The category is required")
-        Long categoryID
+        Long categoryId
 ) {
 }
